@@ -1,6 +1,6 @@
 #This code creates two plots that show changes in PM2.5 emission in the Baltimor City and Los Angeles
 #that comes from motor vehicle source.
-#To run this code there should be "Source_Classification_Code.rds" in working directory
+#To run this code there should be "Source_Classification_Code.rds" and "summarySCC_PM25.rds" in working directory
 
 library(ggplot2)
 library(data.table)

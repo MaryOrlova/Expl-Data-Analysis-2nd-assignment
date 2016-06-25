@@ -1,5 +1,5 @@
 #This code creates plot of total coal combustion-related sources changes across US from 1999–2008
-#To run this code there should be "Source_Classification_Code.rds" in working directory
+#To run this code there should be "Source_Classification_Code.rds" and "summarySCC_PM25.rds" in working directory
 
 library(ggplot2)
 library(data.table)
