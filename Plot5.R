@@ -23,7 +23,7 @@ png(filename="Plot5.png", width=480, height=480,units="px", bg="white")
 
 #Creting plot
 g<-ggplot(BalVeh,aes(x=Year, y=Emissions))
-g+geom_line()+
+g+geom_point(size=2)+geom_line()+
   labs(x="Year",y="Emission in Tones", title="Total PM2.5 from Motor Vehicles in the Baltimore city")+
   theme_bw(base_family="Times")
 

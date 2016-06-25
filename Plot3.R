@@ -22,7 +22,7 @@ btype<-aggregate(x=bal["Emissions"], by =list(Type=bal$type, Year=bal$year), FUN
 
 #Plotting
 g<-ggplot(data=btype,aes(y=Emissions, x=Year, color=Type))
-g+geom_line(size=1,linetype=1)+
+g+geom_point(size=2)+geom_line(size=1,linetype=1)+
   labs(x="Year",y="Emission in Tones", title="PM2.5 Emission in Baltimore by type of source")+
   theme_bw(base_family="Times")
 

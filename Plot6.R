@@ -27,7 +27,7 @@ png(filename="Plot6.png",units="px", bg="white")
 
 #Creting plot
 a<-ggplot(Veh,aes(x=Year, y=Emissions, color=Location))
-a+geom_line(size=1,linetype=1)+
+a+geom_point(size=2)+geom_line(size=1,linetype=1)+
   labs(x="Year",y="Emission in Tones", title="Motor Vehicle PM2.5 Emission in Baltimor and Los Angeles")+
   theme_bw(base_family="Times")
 
